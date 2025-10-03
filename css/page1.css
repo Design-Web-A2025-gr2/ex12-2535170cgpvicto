@@ -1,3 +1,42 @@
 * {
     font-family: 'Segoe UI';
 }
+
+.content{
+    column-count: 2;
+    max-width: 900px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin: auto;
+}
+
+.header {
+    max-width: 900px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin: auto;
+}
+
+#premier-titre {
+    margin-top: 0;
+}
+
+.titre {
+    color: gray;
+    text-decoration: underline orange;
+}
+
+.texte {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 750px) {
+    .content {
+        column-count: 1;
+    }
+
+    .titre {
+        text-decoration: none;
+    }
+}
